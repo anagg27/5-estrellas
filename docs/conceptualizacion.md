@@ -13,23 +13,25 @@ layout: default
 
 ## 1. Presentación del proyecto
 
-**Nombre del sistema:** [nombre]
+**Nombre del sistema:** 5 Estrellas
 
 **Integrantes del grupo:**
 
 | Nombre | Rol |
 |---|---|
-| [Nombre 1] | [rol] |
-| [Nombre 2] | [rol] |
-| [Nombre 3] | [rol] |
+| Vivian Frutos | [A DEFINIR] |
+| Araceli Franco | [A DEFINIR] |
+| Ana Girett | [A DEFINIR] |
 
-**Usuario / cliente real:** [nombre y breve descripción del usuario o cliente para quien se desarrolla el sistema]
+**Usuario / cliente real:** Ariel, dueño de la despensa "5 Estrellas". Es un comerciante que atiende su negocio de forma personal y necesita una herramienta simple para dejar de depender de cálculos y anotaciones manuales.
 
 ---
 
 ## 2. Definición del problema
 
-[Describir la situación actual del usuario/cliente y la problemática concreta que motiva el desarrollo del sistema. ¿Qué hace hoy el usuario para resolver esto? ¿Qué dificultades enfrenta?]
+Actualmente Ariel gestiona su despensa de forma completamente manual. Suma las ventas a mano, sin ningún sistema de registro. Cuando un cliente compra a crédito, anota la deuda en un cuaderno o le entrega una "libreta" para que el propio cliente lleve su cuenta. No existe ningún control de stock: la disponibilidad de productos se maneja de memoria, sin ningún registro escrito ni digital.
+
+Esto genera varias dificultades concretas: riesgo de errores de cálculo en las ventas, pérdida o desorden en la información de créditos pendientes (con el consiguiente riesgo de no cobrar lo adeudado), y falta de visibilidad real sobre qué productos tiene disponibles o cuáles debe reponer.
 
 ---
 
@@ -37,27 +39,26 @@ layout: default
 
 **Objetivo general:**
 
-[Redactar en una frase el objetivo general del sistema.]
+Desarrollar un sistema que permita a Ariel gestionar las ventas, los créditos a clientes y el stock de su despensa "5 Estrellas" de forma digital, ordenada y confiable.
 
 **Objetivos específicos:**
 
-1. [Objetivo específico 1]
-2. [Objetivo específico 2]
-3. [Objetivo específico 3]
+1. Registrar ventas de forma rápida, sin cálculos manuales.
+2. Llevar un registro digital de las ventas a crédito por cliente, con el saldo pendiente de cada uno.
+3. Mantener un control de stock actualizado que refleje las entradas y salidas de productos.
 
 ---
 
 ## 4. Alcance del proyecto
 
 **Incluye (dentro del alcance):**
-
-- [Funcionalidad / módulo 1]
-- [Funcionalidad / módulo 2]
+- Registro de ventas (al contado)
+- Registro y seguimiento de ventas a crédito por cliente
+- Control de stock (altas, bajas y consulta de disponibilidad)
 
 **No incluye (fuera de alcance):**
-
-- [Aspecto explícitamente excluido 1]
-- [Aspecto explícitamente excluido 2]
+- Facturación electrónica / integración con la SET
+- Múltiples sucursales o usuarios simultáneos
 
 ---
 
@@ -65,25 +66,25 @@ layout: default
 
 | Interesado | Descripción | Interés en el proyecto |
 |---|---|---|
-| [Usuario final] | [quién es] | [qué espera del sistema] |
-| [Cliente] | [quién es] | [qué espera del sistema] |
-| [Administrador del sistema] | [quién es] | [qué espera del sistema] |
+| Ariel | Dueño y usuario principal de la despensa "5 Estrellas" | Necesita dejar de gestionar todo manualmente; espera un sistema simple que le ahorre tiempo y evite errores |
+| Clientes de la despensa | Personas que compran, algunas a crédito | Esperan que su historial de crédito quede registrado correctamente |
+| Grupo de desarrollo (Ana, Vivi, Ara) | Equipo que analiza, diseña y documenta el sistema | Cumplir con los objetivos del Trabajo Práctico Integrador |
 
 ---
 
 ## 6. Justificación / viabilidad
 
-**Viabilidad técnica:** [¿el grupo cuenta con el conocimiento o puede adquirirlo?]
+**Viabilidad técnica:** [A DEFINIR]
 
-**Viabilidad operativa:** [¿el usuario/cliente podrá usar y mantener el sistema?]
+**Viabilidad operativa:** Ariel podrá usar el sistema en su día a día ya que reemplaza tareas que hoy hace manualmente (sumar, anotar en cuaderno); la clave es que la interfaz sea simple para alguien sin conocimientos técnicos.
 
-**Viabilidad económica (alto nivel):** [¿es razonable en términos de costo/esfuerzo para el contexto del proyecto?]
+**Viabilidad económica (alto nivel):** Al ser un Trabajo Práctico académico, no hay costo de licencias ni infraestructura paga previsto; se puede desarrollar con herramientas gratuitas.
 
 ---
 
 ## 7. Visión general de la solución
 
-[Descripción breve, en lenguaje llano y sin detalle técnico, de cómo el grupo imagina que el sistema resolverá el problema planteado.]
+El grupo imagina un sistema simple donde Ariel pueda cargar una venta indicando los productos y si es al contado o a crédito. Si es a crédito, el sistema asocia esa deuda al cliente correspondiente y permite consultar cuánto debe cada uno. Cada venta descuenta automáticamente del stock disponible, de modo que Ariel siempre pueda ver qué productos tiene y cuáles se están por agotar, sin necesidad de llevar cuentas de memoria.
 
 ---
 
@@ -91,9 +92,9 @@ layout: default
 
 | Término | Definición |
 |---|---|
-| [Término 1] | [definición en el contexto del negocio] |
-| [Término 2] | [definición en el contexto del negocio] |
-| [Término 3] | [definición en el contexto del negocio] |
+| Venta a crédito | Venta en la que el cliente no paga en el momento; queda registrada como deuda pendiente |
+| Libreta | Método actual (en papel) que usa Ariel para que el propio cliente lleve el registro de su deuda |
+| Stock | Cantidad disponible de cada producto en la despensa |
 
 ---
 
@@ -101,8 +102,8 @@ layout: default
 
 | Riesgo | Impacto | Estrategia de mitigación |
 |---|---|---|
-| [ej. Baja disponibilidad del cliente para validaciones] | [Alto/Medio/Bajo] | [cómo se planea mitigar] |
-| [Riesgo 2] | [Alto/Medio/Bajo] | [cómo se planea mitigar] |
+| Baja disponibilidad de Ariel para validar el sistema con el grupo | Medio | Coordinar reuniones breves y puntuales, y validar por WhatsApp cuando no sea posible presencial |
+| Que el grupo no llegue a implementar el sistema completo en el tiempo disponible | Medio | Priorizar las funcionalidades del alcance (ventas, créditos, stock) por sobre extras |
 
 ---
 
@@ -110,9 +111,9 @@ layout: default
 
 | Componente | Elección | Justificación breve |
 |---|---|---|
-| Lenguaje de programación | [ej. Python / Java / TypeScript] | [por qué] |
-| Framework | [ej. Django / Spring Boot / React] | [por qué] |
-| Base de datos | [ej. PostgreSQL / MongoDB] | [por qué] |
+| Lenguaje de programación | [A DEFINIR] | [A DEFINIR] |
+| Framework | [A DEFINIR] | [A DEFINIR] |
+| Base de datos | [A DEFINIR] | [A DEFINIR] |
 
 ---
 
