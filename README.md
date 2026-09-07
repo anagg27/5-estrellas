@@ -15,7 +15,7 @@ El sitio publicado en GitHub Pages es la entrega oficial del trabajo. **No se en
 | Nombre completo | Rol / Responsabilidad principal | Usuario de GitHub |
 |---|---|---|
 | Vivian Frutos | [A DEFINIR] | @Vivi-an99 |
-| Araceli Franco | [A DEFINIR] | [@usuario2] |
+| Araceli Franco | [A DEFINIR] | @aracelifrancofl-eng |
 | Ana Girett | [A DEFINIR] | @anagg27 |
 
 ## Usuario / cliente real
