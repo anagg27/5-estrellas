@@ -14,9 +14,9 @@ El sitio publicado en GitHub Pages es la entrega oficial del trabajo. **No se en
 
 | Nombre completo | Rol / Responsabilidad principal | Usuario de GitHub |
 |---|---|---|
-| Vivian Frutos | [A DEFINIR] | @Vivi-an99 |
-| Araceli Franco | [A DEFINIR] | @aracelifrancofl-eng |
-| Ana Girett | [A DEFINIR] | @anagg27 |
+| Vivian Frutos | Arquitecta de Software / Diseñadora de Datos | @Vivi-an99 |
+| Araceli Franco | Diseñadora UI/UX / Analista de Sistemas | @aracelifrancofl-eng |
+| Ana Girett | Analista de Requisitos | @anagg27 |
 
 ## Usuario / cliente real
 
@@ -24,9 +24,17 @@ El sitio publicado en GitHub Pages es la entrega oficial del trabajo. **No se en
 
 ## Metodología de diseño y desarrollo elegida
 
-[Nombre de la metodología, por ejemplo: RUP, Scrum aplicado al modelado, Design Thinking + UML, etc.]
+**Metodología elegida:** Iterativa e Incremental, con modelado UML como soporte en cada etapa.
 
-[Breve justificación de por qué el grupo eligió esta metodología para este proyecto.]
+**Justificación:**
+
+El grupo optó por una metodología iterativa e incremental porque se ajusta mejor a las características de este proyecto:
+
+- **El trabajo está organizado en entregas sucesivas** (Conceptualización → Análisis → Diseño), donde cada una profundiza y agrega detalle sobre la anterior, en lugar de intentar definir todo el sistema de una sola vez. Esto es exactamente el espíritu de un enfoque iterativo e incremental.
+- **Ariel, el cliente real, tiene disponibilidad limitada** para validar el sistema. Trabajar en incrementos pequeños permite mostrarle avances concretos (por ejemplo, el prototipo navegable) en distintos momentos, recoger su feedback y ajustar el rumbo sin haber invertido todo el esfuerzo de diseño de una sola vez.
+- **El alcance está acotado pero puede afinarse con el uso real**: módulos como Ventas, Inventario y Clientes/Fiados se pueden refinar iteración a iteración a medida que entendemos mejor cómo trabaja Ariel día a día, sin necesidad de rehacer todo el análisis.
+- **El modelado UML acompaña cada iteración** (diagramas de casos de uso, de clases, de secuencia, etc.), permitiendo documentar y comunicar las decisiones de diseño de forma clara entre las tres integrantes del grupo, y sirviendo de base directa para la futura implementación en Python (Django/Flask) con SQLite.
+- **Reduce el riesgo del proyecto**: al validar en cada incremento que el sistema resuelve el problema real de Ariel (dejar de usar cuaderno y memoria), se evita llegar al final del trabajo práctico con un desarrollo desalineado de las necesidades del cliente.
 
 ---
 
@@ -34,9 +42,9 @@ El sitio publicado en GitHub Pages es la entrega oficial del trabajo. **No se en
 
 | Entrega | Estado | Enlace |
 |---|---|---|
-| 1. Conceptualización | 🔲 Pendiente / ✅ Entregado | [Ver documento](docs/conceptualizacion.md) |
-| 2. Análisis | 🔲 Pendiente / ✅ Entregado | [Ver documento](docs/analisis.md) |
-| 3. Diseño | 🔲 Pendiente / ✅ Entregado | [Ver documento](docs/diseno.md) |
+| 1. Conceptualización | ✅ Entregado | [Ver documento](docs/conceptualizacion.md) |
+| 2. Análisis | 🔲 Pendiente | [Ver documento](docs/analisis.md) |
+| 3. Diseño | 🔲 Pendiente | [Ver documento](docs/diseno.md) |
 
 ## Estructura del repositorio
 
