@@ -122,12 +122,12 @@ Responsabilidad y ética profesional
 
 | Rol | Descripción |
 |---|---|
-| Analista | |Se encarga de entender qué necesita el usuario y traducirlo en especificaciones claras.
-| Arquitecto | |Define la estructura general del sistema
-| Desarrollador | |Implementa el software, transformando el diseño y los requisitos en código funcional
-| Tester / QA | |Verifica la calidad del software y detecta defectos antes de que el producto llegue al
+| Analista |Se encarga de entender qué necesita el usuario y traducirlo en especificaciones claras. |
+| Arquitecto | Define la estructura general del sistema|
+| Desarrollador |Implementa el software, transformando el diseño y los requisitos en código funcional. |
+| Tester / QA | Verifica la calidad del software y detecta defectos antes de que el producto llegue al
 
-usuario final
+usuario final|
 
 **10. Caso breve:** Un ingeniero de software descubre, cerca de la fecha de entrega, una falla de seguridad que podría exponer datos de usuarios, pero corregirla retrasaría el proyecto una semana. ¿Qué debería hacer y por qué, considerando la ética profesional?
 
@@ -160,11 +160,10 @@ _Respuesta:_ Se afirma que es la fase más costosa porque el software "vive y ca
 
 | Área | ¿Cómo apoya a la Ingeniería de Software? |
 |---|---|
-| Estructuras de datos y algoritmos | |Son la base para diseñar soluciones eficientes. 
-| Bases de datos | |Permiten el modelado y la gestión de la información del sistema.
-| Sistemas operativos | |Entienden el entorno donde el software se ejecuta.
-| Redes | |Soportan los sistemas distribuidos y su comunicación. 
-
+| Estructuras de datos y algoritmos |Son la base para diseñar soluciones eficientes. | 
+| Bases de datos | Permiten el modelado y la gestión de la información del sistema.|
+| Sistemas operativos |Entienden el entorno donde el software se ejecuta. |
+| Redes | Soportan los sistemas distribuidos y su comunicación. |
 ---
 
 ## Tema 7 · Relación con otras disciplinas
