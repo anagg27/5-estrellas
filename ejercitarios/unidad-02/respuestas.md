@@ -9,11 +9,16 @@
 **1. En tus propias palabras, explica por qué se dice que el software es un producto de "naturaleza particular" en comparación con un producto físico. Menciona al menos tres características distintivas.**
 
 _Respuesta:_
+Se dice que el software es de naturaleza particular particular porque no se comporta como los objetos fisicos que podemos tocar y fabricar. Estas serian las 3 caracteristicas
+1. No se desgastan con el uso
+2. Es complejo e invisible
+3. Es maleable y se construye a medida 
 
 
 **2. ¿Por qué se afirma que la calidad del software se degrada por mal mantenimiento y no por el paso del tiempo? Da un ejemplo.**
 
 _Respuesta:_
+Se afirma eso porque el software no es físico. Ejemplo Un producto físico como una bici sí se oxida, se rompe o se gasta solo con el paso del tiempo, en cambio un código de software no envejece solo, mientras esté guardado en un disco, va a seguir siendo el mismo código dentro de 10 años.
 
 
 ---
@@ -23,17 +28,24 @@ _Respuesta:_
 **3. Explica con tus propias palabras la diferencia entre un requisito funcional y un requisito no funcional.**
 
 _Respuesta:_
-
+Un requisito funcional basicamente seria el que debe hacer el sistema, son las acciones del sistema. iniciar sesion, guardar datos, enviar mensajes.
+Un requisito no funcional seria como debe hacerlo, la calidad del sistema. Que sea rapido, seguro y facil de usar.
 
 **4. Para el siguiente caso, identifica un requisito funcional y tres requisitos no funcionales de categorías distintas: "Una aplicación de delivery de comida debe permitir a los usuarios rastrear su pedido en tiempo real."**
 
 _Respuesta:_
-
+Para el requisito funcional el sistema debe permitir a los usuarios rastrear su pedido en tiempo real en un mapa, es el QUE hace la app la acciones del sistema.
+Y los 3 requisitos no funcionales serian,
+1. El rendimiento que la ubicación del pedido debe actualizarse cada 5 segundos máximo.
+2. La eficiencia de  la pantalla de rastreo debe ser fácil de entender para cualquier usuario sin manual.  
+3. La seguridad que solo el usuario que hizo el pedido y el repartidor pueden ver la ubicación en tiempo real.  
+4. La seguridad.
 
 **5. Menciona dos razones por las cuales los requisitos no funcionales suelen entrar en conflicto entre sí. Da un ejemplo concreto de ese conflicto.**
 
 _Respuesta:_
-
+Las razones principales seria que compiten por los mismos recursos y buscan objetivos opuestos. Un ejemplo concreto seria La app de delivery un requisito seria el rendimiento la app debe actualizar la ubicación del pedido cada 1 segundo para que sea bien en tiempo real. El siguiente requisito la eficiencia la app debe gastar poca batería del celular para que al usuario no se le descargue si actualizas la ubicación cada 1 segundo, usas GPS y datos a cada rato. Eso hace que la batería se descargue rapidísimo.
+Para ahorrar batería tendria que actualizar cada 30 segundos, pero ahí ya no es tiempo real por eso el equipo tiene que negociar si cada 5 segundos está bien para ambos.
 
 ---
 
