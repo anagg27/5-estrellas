@@ -9,7 +9,7 @@
 **1. En tus propias palabras, explica por qué se dice que el software es un producto de "naturaleza particular" en comparación con un producto físico. Menciona al menos tres características distintivas.**
 
 _Respuesta:_
-Se dice que el software es de naturaleza particular particular porque no se comporta como los objetos fisicos que podemos tocar y fabricar. Estas serian las 3 caracteristicas
+Se dice que el software es de naturaleza particular porque no se comporta como los objetos fisicos que podemos tocar y fabricar. Estas serian las 3 caracteristicas
 1. No se desgastan con el uso
 2. Es complejo e invisible
 3. Es maleable y se construye a medida 
