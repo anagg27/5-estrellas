@@ -44,7 +44,7 @@ Y los 3 requisitos no funcionales serian,
 **5. Menciona dos razones por las cuales los requisitos no funcionales suelen entrar en conflicto entre sí. Da un ejemplo concreto de ese conflicto.**
 
 _Respuesta:_
-Las razones principales seria que compiten por los mismos recursos y buscan objetivos opuestos. Un ejemplo concreto seria La app de delivery un requisito seria el rendimiento la app debe actualizar la ubicación del pedido cada 1 segundo para que sea bien en tiempo real. El siguiente requisito la eficiencia la app debe gastar poca batería del celular para que al usuario no se le descargue si actualizas la ubicación cada 1 segundo, usas GPS y datos a cada rato. Eso hace que la batería se descargue rapidísimo.
+Las razones principales seria que compiten por los mismos recursos y buscan objetivos opuestos. Un ejemplo concreto seria La app de delivery.El primer requisito seria el rendimiento de la app, debe actualizar la ubicación del pedido cada 1 segundo para que sea bien en tiempo real. El siguiente requisito la eficiencia, la app debe gastar poca batería del celular para que al usuario no se le descargue si actualizas la ubicación cada 1 segundo, usas GPS y datos a cada rato. Eso hace que la batería se descargue rapidísimo.
 Para ahorrar batería tendria que actualizar cada 30 segundos, pero ahí ya no es tiempo real por eso el equipo tiene que negociar si cada 5 segundos está bien para ambos.
 
 ---
