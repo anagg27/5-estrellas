@@ -1,9 +1,9 @@
 ---
-title: "[Nombre del Sistema]"
+title: "[5 Estrellas]"
 layout: default
 ---
 
-# [Nombre del Sistema]
+# 5 Estrellas — Trabajo Práctico Integrador
 
 **Trabajo Práctico Integrador — Ingeniería de Software**
 
@@ -13,13 +13,13 @@ layout: default
 
 ## Grupo
 
-- **[Nombre 1]** — [rol]
-- **[Nombre 2]** — [rol]
-- **[Nombre 3]** — [rol]
+- **Vivian Frutos** — [Arquitecta de Software / Diseñadora de Datos]
+- **Araceli Franco** — [Diseñadora UI/UX / Analista de Sistemas]
+- **Ana Girett** — [Analista de Requisitos]
 
-**Usuario / cliente real:** [nombre del usuario o cliente]
+**Usuario / cliente real:** [Ariel — dueño de la despensa "5 Estrellas]
 
-**Metodología utilizada:** [nombre de la metodología elegida]
+**Metodología utilizada:** [Iterativa e Incremental, con modelado UML como soporte en cada etapa.]
 
 ---
 
@@ -35,7 +35,7 @@ layout: default
 
 ## Repositorio de código
 
-[Enlace al repositorio o carpeta /src, si el grupo avanzó con una implementación. Si no aplica, eliminar esta sección.]
+[]
 
 ---
 
