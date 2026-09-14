@@ -1,5 +1,5 @@
 ---
-title: "[5 Estrellas]"
+title: "5 Estrellas"
 layout: default
 ---
 
@@ -7,19 +7,19 @@ layout: default
 
 **Trabajo Práctico Integrador — Ingeniería de Software**
 
-[Una o dos frases que resuman de qué trata el sistema y para quién se desarrolla.]
+Ariel, dueño de la despensa "5 Estrellas". Es un comerciante que atiende su negocio de forma personal y necesita una herramienta simple para dejar de depender de cálculos y anotaciones manuales.
 
 ---
 
 ## Grupo
 
-- **Vivian Frutos** — [Arquitecta de Software / Diseñadora de Datos]
-- **Araceli Franco** — [Diseñadora UI/UX / Analista de Sistemas]
-- **Ana Girett** — [Analista de Requisitos]
+- **Vivian Frutos** — Arquitecta de Software / Diseñadora de Datos
+- **Araceli Franco** — Diseñadora UI/UX / Analista de Sistemas
+- **Ana Girett** — Analista de Requisitos
 
-**Usuario / cliente real:** [Ariel — dueño de la despensa "5 Estrellas]
+**Usuario / cliente real:** Ariel — dueño de la despensa "5 Estrellas
 
-**Metodología utilizada:** [Iterativa e Incremental, con modelado UML como soporte en cada etapa.]
+**Metodología utilizada:** Iterativa e Incremental, con modelado UML como soporte en cada etapa.
 
 ---
 
