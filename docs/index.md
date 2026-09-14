@@ -39,4 +39,4 @@ Ariel, dueño de la despensa "5 Estrellas". Es un comerciante que atiende su neg
 
 ---
 
-<sub>Sitio generado y mantenido por el grupo como entrega oficial del Trabajo Práctico Integrador. Última actualización: [fecha].</sub>
+<sub>Sitio generado y mantenido por el grupo como entrega oficial del Trabajo Práctico Integrador. Última actualización: 14/09/2026.</sub>
