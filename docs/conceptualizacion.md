@@ -19,9 +19,9 @@ layout: default
 
 | Nombre | Rol |
 |---|---|
-| Vivian Frutos | [A DEFINIR] |
-| Araceli Franco | [A DEFINIR] |
-| Ana Girett | [A DEFINIR] |
+| Vivian Frutos | [Arquitecta de Software / Diseñadora de Datos] |
+| Araceli Franco | [Diseñadora UI/UX / Analista de Sistemas] |
+| Ana Girett | [Analista de Requisitos] |
 
 **Usuario / cliente real:** Ariel, dueño de la despensa "5 Estrellas". Es un comerciante que atiende su negocio de forma personal y necesita una herramienta simple para dejar de depender de cálculos y anotaciones manuales.
 
@@ -74,7 +74,7 @@ Desarrollar un sistema que permita a Ariel gestionar las ventas, los créditos a
 
 ## 6. Justificación / viabilidad
 
-**Viabilidad técnica:** [A DEFINIR]
+**Viabilidad técnica:** El equipo cuenta con conocimientos suficientes para implementar el sistema con herramientas ampliamente documentadas y de uso gratuito. Se optó por Python con el framework Django o Flask, y SQLite como motor de base de datos, por tratarse de tecnologías simples de instalar, sin necesidad de infraestructura de servidor compleja, adecuadas para un sistema de un solo local y un solo usuario como el de Ariel. Previamente se desarrolló un prototipo navegable en React/Vite para validar el flujo con el cliente, lo cual reduce el riesgo técnico de la implementación final
 
 **Viabilidad operativa:** Ariel podrá usar el sistema en su día a día ya que reemplaza tareas que hoy hace manualmente (sumar, anotar en cuaderno); la clave es que la interfaz sea simple para alguien sin conocimientos técnicos.
 
@@ -111,9 +111,9 @@ El grupo imagina un sistema simple donde Ariel pueda cargar una venta indicando 
 
 | Componente | Elección | Justificación breve |
 |---|---|---|
-| Lenguaje de programación | [A DEFINIR] | [A DEFINIR] |
-| Framework | [A DEFINIR] | [A DEFINIR] |
-| Base de datos | [A DEFINIR] | [A DEFINIR] |
+| Lenguaje de programación | Python | Lenguaje simple, con curva de aprendizaje baja para el equipo y amplio soporte de librerías |
+| Framework | Django o Flask | Framework web maduro (Django) o liviano (Flask), ambos con buena documentación para un sistema de escritorio/local pequeño |
+| Base de datos | SQLite | Base de datos liviana, sin necesidad de servidor separado, ideal para un sistema de un solo usuario/local como la despensa de Ariel |
 
 ---
 
