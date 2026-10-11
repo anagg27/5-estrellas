@@ -15,20 +15,46 @@
 
 **1.** Explique con sus propias palabras la diferencia entre diseño arquitectónico y diseño detallado. Dé un ejemplo de cada uno para un sistema de reservas de vuelos.
 
+Arquitectónico = Son las  partes que hay y cómo se conectan. Ves el sistema desde arriba detallado como funciona cada parte por dentro. Ves el código, clases y tablas.Ejemplo Reservas de Vuelos Arquitectónico: El sistema tiene 3 servicios, App Web, Servicio de Vuelos y Servicio de Pagos, que se hablan por API. Usa una base de datos PostgreSQL. 
+Detallado: En el Servicio de Pagos, la clase Reserva { id, vueloId, estado } tiene el método pagar() que valida la tarjeta, si falla cambia estado a CANCELADA y libera el asiento.
+
+
 **2.** *(Verdadero o Falso — justifique su respuesta)*
 "El diseño de software tiene una única solución óptima para cada especificación."
 
----
+falso. No existe una única solución óptima. Frente a una misma especificación, distintos diseñadores producen distintas soluciones válidas; el diseño se evalúa por calidad relativa, no por unicidad. que seria diseño arquitectónico, diseño detallado y proceso iterativo.
 
 ## Tema 2 — Técnicas de modularización
 
 **3.** Defina el criterio de ocultamiento de información de Parnas y explique por qué reduce el impacto de los cambios futuros sobre el sistema.
 
+ Parnas (1972): cada módulo debe ocultar una decisión de diseño que probablemente cambiará, exponiendo solo la interfaz mínima necesaria.
+reduce el impacto de los cambios porque si el cambio está escondido adentro de un solo módulo, el resto del sistema no se entera y no se rompe.Si no ocultas, todos dependen de los detalles. Cambias algo y se cae todo el sistema en cadena.
+
 **4.** Compare la descomposición top-down y bottom-up: mencione una ventaja y una desventaja de cada enfoque.
+
+Top-Down: Empiezas desde el sistema grande y lo vas partiendo en módulos más chicos. 
+Ventaja: Ves todo el panorama desde el inicio, no te olvidas de partes importantes.
+Desventaja: Puedes diseñar módulos que después son muy difíciles de implementar abajo.
+
+Bottom-Up: Empiezas desde piezas pequeñas y útiles que ya tienes y las vas combinando para armar el sistema grande.
+Ventaja: Reutilizas mucho, son piezas ya probadas y estables.
+Desventaja: Puedes terminar con un sistema que funciona pero no cumple bien lo que el usuario realmente quería.
 
 **5.** *(Aplicación)* Dado un sistema de gestión de biblioteca, proponga una modularización por tipos de datos abstractos, indicando al menos dos módulos junto con su interfaz pública (operaciones que exponen).
 
----
+Para biblioteca Tipo de Dato Abstracto.
+Módulo 1: Libro 
+crear(titulo, autor, isbn)
+buscar(id)
+prestar(id)
+devolver(id)
+Módulo 2:Socio
+registrar(nombre, ci)
+buscar(id)
+prestarLibro(socioId, libroId)
+tieneDeuda(id)bool
+Cada uno esconde sus datos internos. Solo se usa por su interfaz.
 
 ## Tema 3 — Notaciones de diseño
 
