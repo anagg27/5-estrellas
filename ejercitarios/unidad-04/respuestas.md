@@ -92,16 +92,19 @@ Identifique las clases candidatas aplicando la técnica de análisis de sustanti
 ## Tema 5 — Diseño de la interfaz del usuario
 
 **15.** Mencione tres heurísticas de usabilidad de Nielsen y explique cómo aplicaría cada una al diseño de un formulario de registro de usuarios.
+
 Visibilidad del estado: el sistema debe informar siempre qué está pasando. En el registro, mostraría una barra de progreso si el formulario tiene varios pasos. También mostraría un indicador de carga al enviar los datos y un mensaje claro de que la cuenta se creó.
 Prevención de errores: el diseño evita que el error ocurra. Usaría el tipo de campo correcto, validaría en el momento y mostraría el formato esperado como ayuda. Deshabilitaría el botón “Registrarse” hasta que los campos obligatorios estén completos y pediría confirmar la contraseña.
 Consistencia: los mismos elementos se comportan igual en toda la interfaz. Todos los campos tendrían el mismo estilo, las etiquetas la misma posición y los botones primarios el mismo color y texto que en el resto del sistema. Los mensajes de error aparecerían siempre en el mismo lugar y con el mismo formato.
 
 **16.** Explique por qué la separación entre interfaz y lógica de negocio (por ejemplo, mediante el patrón MVC) facilita el mantenimiento del software a largo plazo.
+
 La interfaz no debe contener lógica de negocio, para poder cambiar una sin afectar la otra. Con MVC, el Modelo guarda los datos y la lógica del dominio, la Vista se ocupa de la presentación y el Controlador coordina la entrada del usuario y actualiza modelo y vista. Esto facilita el mantenimiento a largo plazo porque:
 
 Los cambios quedan localizados, hay bajo acoplamiento y alta cohesión, se puede reutilizar, se puede trabajar en paralelo y es más adaptable.
 
 **17.** Ordene y describa brevemente las tres etapas típicas de prototipado de interfaces, de menor a mayor fidelidad.
+
 Wireframe: boceto de baja fidelidad que define la distribución de los elementos en pantalla, sin estilo visual.
 Mockup: representación visual estática, con estilo (colores, tipografías) y contenido aproximado.
 Prototipo interactivo: simulación navegable de los flujos reales, sin la lógica de negocio completa.
