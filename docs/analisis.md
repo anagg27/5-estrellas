@@ -79,7 +79,7 @@ layout: default
 
 **Diagrama de clases conceptual:**
 
-![Modelo de Dominio DER](../diagramas/modelo-dominio.png)
+![Modelo de Dominio DER](https://github.com/anagg27/5-estrellas/blob/main/diagramas/modelo-dominio.png)
 
 *Descripción de entidades principales:*
 * *Cliente:* Guarda datos personales (CI_RUC, Nombre, Apellido, Telefono) y controla la deuda pendiente.
