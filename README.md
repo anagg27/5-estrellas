@@ -28,13 +28,12 @@ El sitio publicado en GitHub Pages es la entrega oficial del trabajo. **No se en
 
 **Justificación:**
 
-El grupo optó por una metodología iterativa e incremental porque se ajusta mejor a las características de este proyecto:
-
-- **El trabajo está organizado en entregas sucesivas** (Conceptualización → Análisis → Diseño), donde cada una profundiza y agrega detalle sobre la anterior, en lugar de intentar definir todo el sistema de una sola vez. Esto es exactamente el espíritu de un enfoque iterativo e incremental.
-- **Ariel, el cliente real, tiene disponibilidad limitada** para validar el sistema. Trabajar en incrementos pequeños permite mostrarle avances concretos (por ejemplo, el prototipo navegable) en distintos momentos, recoger su feedback y ajustar el rumbo sin haber invertido todo el esfuerzo de diseño de una sola vez.
-- **El alcance está acotado pero puede afinarse con el uso real**: módulos como Ventas, Inventario y Clientes/Fiados se pueden refinar iteración a iteración a medida que entendemos mejor cómo trabaja Ariel día a día, sin necesidad de rehacer todo el análisis.
-- **El modelado UML acompaña cada iteración** (diagramas de casos de uso, de clases, de secuencia, etc.), permitiendo documentar y comunicar las decisiones de diseño de forma clara entre las tres integrantes del grupo, y sirviendo de base directa para la futura implementación en Python (Django/Flask) con SQLite.
-- **Reduce el riesgo del proyecto**: al validar en cada incremento que el sistema resuelve el problema real de Ariel (dejar de usar cuaderno y memoria), se evita llegar al final del trabajo práctico con un desarrollo desalineado de las necesidades del cliente.
+El grupo optó por una metodología iterativa e incremental porque se ajusta a las características del proyecto:
+- **Entregas estructuradas por fases:** El trabajo está organizado en entregas sucesivas (*Conceptualización → Análisis → Diseño*), donde cada una profundiza y agrega detalle sobre la anterior, en lugar de intentar definir todo el sistema de una sola vez.
+- **Validación con el cliente real:** Ariel tiene disponibilidad limitada para validar el sistema. Trabajar en incrementos pequeños permite mostrarle avances concretos (como el prototipo navegable y los módulos funcionales), recoger su feedback y ajustar el rumbo rápidamente.
+- **Refinamiento del alcance:** Módulos como Ventas, Inventario y Clientes/Fiados se pueden refinar iteración a iteración a medida que se comprende mejor la operativa diaria de la despensa.
+- **Soporte con modelado UML:** El modelado UML acompaña cada iteración (diagramas de casos de uso, de clases conceptuales, de secuencia y modelo de datos), sirviendo de base directa para la implementación del sistema en **PHP con Laravel, Livewire y MariaDB (XAMPP)**.
+- **Reducción de riesgos:** Al validar en cada incremento que el sistema resuelve el problema real de Ariel (dejar de depender de anotaciones en papel), se garantiza que el desarrollo responda exactamente a las necesidades del cliente.
 
 ---
 
