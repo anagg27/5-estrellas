@@ -74,11 +74,11 @@ Desarrollar un sistema que permita a Ariel gestionar las ventas, los créditos a
 
 ## 6. Justificación / viabilidad
 
-Viabilidad técnica: El equipo cuenta con conocimientos suficientes para implementar el sistema con herramientas ampliamente documentadas y de uso gratuito. Se optó por PHP como lenguaje principal con el framework Laravel, utilizando Livewire para la construcción de interfaces dinámicas y reactivas en el frontend, y JavaScript / npm para la gestión de dependencias y scripts de cliente. Para la persistencia de datos se utilizará el motor MariaDB integrado a través de la suite XAMPP. Esta combinación permite estructurar una arquitectura robusta (Model-View-Controller) bajo una pila de desarrollo local fácil de desplegar en un único equipo informático, adecuada para un sistema de un solo local y un solo usuario como el de Ariel. Previamente se desarrolló un prototipo navegable en React/Vite para validar el flujo con el cliente, lo cual reduce el riesgo técnico de la implementación final.
+**Viabilidad técnica:** El equipo cuenta con conocimientos suficientes para implementar el sistema con herramientas ampliamente documentadas y de uso gratuito. Se optó por PHP como lenguaje principal con el framework Laravel, utilizando Livewire para la construcción de interfaces dinámicas y reactivas en el frontend, y JavaScript / npm para la gestión de dependencias y scripts de cliente. Para la persistencia de datos se utilizará el motor MariaDB integrado a través de la suite XAMPP. Esta combinación permite estructurar una arquitectura robusta (Model-View-Controller) bajo una pila de desarrollo local fácil de desplegar en un único equipo informático, adecuada para un sistema de un solo local y un solo usuario como el de Ariel. Previamente se desarrolló un prototipo navegable en React/Vite para validar el flujo con el cliente, lo cual reduce el riesgo técnico de la implementación final.
 
-Viabilidad operativa: Ariel podrá usar el sistema en su día a día ya que reemplaza tareas que hoy hace manualmente (sumar, anotar en cuaderno); la clave es que la interfaz sea simple para alguien sin conocimientos técnicos.
+**Viabilidad operativa:** Ariel podrá usar el sistema en su día a día ya que reemplaza tareas que hoy hace manualmente (sumar, anotar en cuaderno); la clave es que la interfaz sea simple para alguien sin conocimientos técnicos.
 
-Viabilidad económica (alto nivel): Al ser un Trabajo Práctico académico, no hay costo de licencias ni infraestructura paga previsto; se puede desarrollar con herramientas gratuitas (XAMPP, PHP, Laravel, MariaDB).
+**Viabilidad económica (alto nivel):** Al ser un Trabajo Práctico académico, no hay costo de licencias ni infraestructura paga previsto; se puede desarrollar con herramientas gratuitas (XAMPP, PHP, Laravel, MariaDB).
 
 ---
 
