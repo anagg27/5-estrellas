@@ -41,19 +41,38 @@ layout: default
 
 **Especificación de casos de uso principales:**
 
-### CU-01 · [Nombre del caso de uso]
+#### CU-01 · Registrar Venta al Contado
+* *Actor(es):* Ariel (Usuario / Administrador)
+* *Precondición:* Existen productos registrados con stock disponible.
+* *Flujo principal:*
+  1. Ariel selecciona los productos y los agrega al carrito.
+  2. El sistema calcula el total de la venta automáticamente.
+  3. Ariel selecciona la opción de pago "Contado" y confirma la operación.
+  4. El sistema registra la venta y descuenta los productos del stock.
+* *Flujos alternativos:*
+  * Stock insuficiente: Si la cantidad supera el stock actual, el sistema bloquea el agregado e informa el límite disponible.
+* *Postcondición:* Venta registrada y stock de productos actualizado.
 
-- **Actor(es):** [actor principal / secundarios]
-- **Precondición:** [qué debe cumplirse antes]
-- **Flujo principal:**
-  1. [Paso 1]
-  2. [Paso 2]
-  3. [Paso 3]
-- **Flujos alternativos:** [qué pasa si algo falla o se desvía]
-- **Postcondición:** [estado del sistema al finalizar]
+#### CU-02 · Registrar Venta a Crédito (Libreta)
+* *Actor(es):* Ariel (Usuario / Administrador)
+* *Precondición:* El cliente debe estar registrado en el sistema.
+* *Flujo principal:*
+  1. Ariel agrega los productos solicitados al carrito.
+  2. Selecciona la opción de pago "A crédito / Libreta".
+  3. Busca y selecciona el cliente correspondiente.
+  4. Confirma la operación.
+  5. El sistema registra la venta, suma la deuda al cliente y actualiza el stock.
+* *Postcondición:* Saldo deudor del cliente actualizado e inventario descontado.
 
-*(Repetir esta estructura para cada caso de uso principal.)*
-
+#### CU-03 · Registrar Abono de Deuda
+* *Actor(es):* Ariel (Usuario / Administrador)
+* *Precondición:* El cliente tiene saldo adeudado registrado.
+* *Flujo principal:*
+  1. Ariel ingresa al módulo de Clientes y busca al cliente.
+  2. Selecciona la opción "Registrar Pago / Abono".
+  3. Ingresa el monto entregado por el cliente y confirma.
+  4. El sistema resta el monto abonado de la deuda total.
+* *Postcondición:* Deuda del cliente reducida correctamente.
 ---
 
 ## 4. Modelo de dominio
