@@ -15,20 +15,21 @@ layout: default
 
 | ID | Requisito | Prioridad |
 |---|---|---|
-| RF-01 | [El sistema debe permitir...] | Alta |
-| RF-02 | [El sistema debe permitir...] | Alta |
-| RF-03 | [El sistema debe permitir...] | Media |
-| RF-04 | [El sistema debe permitir...] | Baja |
+| *RF-01* | El sistema debe permitir registrar ventas al contado, calculando automáticamente el total y descontando productos del stock. | Alta |
+| *RF-02* | El sistema debe permitir registrar ventas a crédito asociadas a un cliente, actualizando su saldo pendiente. | Alta |
+| *RF-03* | El sistema debe permitir la gestión de clientes (registro, consulta de deudas y abonos a libreta). | Alta |
+| *RF-04* | El sistema debe permitir la gestión de inventario y productos (altas, bajas, modificación y categorías). | Alta |
+| *RF-05* | El sistema debe mostrar alertas visuales cuando un producto alcance su stock mínimo. | Media |
+| *RF-06* | El sistema debe emitir reportes o resúmenes de ventas diarias. | Baja |
 
 ---
 
 ## 2. Requisitos no funcionales
 
-| ID | Requisito | Categoría |
-|---|---|---|
-| RNF-01 | [ej. El sistema debe responder en menos de 2s] | Rendimiento |
-| RNF-02 | [ej. Las contraseñas deben almacenarse cifradas] | Seguridad |
-| RNF-03 | [ej. La interfaz debe ser utilizable sin capacitación previa] | Usabilidad |
+| *RNF-01* | La interfaz debe ser intuitiva y de fácil uso para que el usuario opere el sistema sin capacitación previa. | Usabilidad |
+| *RNF-02* | El sistema debe responder a las búsquedas y registros de ventas en menos de 1 segundo en entorno local. | Rendimiento |
+| *RNF-03* | Las transacciones de venta deben garantizar la integridad de los datos (soporte ACID en MariaDB). | Fiabilidad |
+| *RNF-04* | El sistema debe ejecutarse sobre el entorno local XAMPP sin costo de licencias de software. | Portabilidad / Costo |
 
 ---
 
