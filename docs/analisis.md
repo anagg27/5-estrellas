@@ -37,7 +37,7 @@ layout: default
 
 **Diagrama de casos de uso / flujo principal:**
 
-![Diagrama de Casos de Uso](https://github.com/anagg27/5-estrellas/blob/main/diagramas/flujo-punto-de-venta.svg)
+![Diagrama de Casos de Uso](flujo-punto-de-venta.svg)
 
 **Especificación de casos de uso principales:**
 
@@ -92,7 +92,7 @@ layout: default
 
 **Diagrama de secuencia / actividad — secuencia — Proceso de Venta:**
 
-![Diagrama de Comportamiento](../diagramas/flujo-punto-de-venta.svg)
+![Diagrama de Comportamiento](flujo-punto-de-venta.svg)
 
 *Breve explicación:* Representa el flujo interactivo desde que el vendedor autenticado inicia la atención, busca productos, selecciona la condición de pago (Contado o Crédito) y el sistema procesa la transacción afectando las tablas en MariaDB.
 
@@ -100,25 +100,25 @@ layout: default
 
 ### Pantalla — Inicio de Punto de Venta:
 
-![Pantalla de Inicio](../diagramas/mockup-inicio.png)
+![Pantalla de Inicio](mockup-inicio.png)
 *Descripción:* Pantalla principal de bienvenida al punto de venta que permite el ingreso o registro de usuario.
 
 ### Pantalla — Acceso al Sistema (Login)
-![Pantalla de Login](../diagramas/mockup-login.png)
+![Pantalla de Login](mockup-login.png)
 *Descripción:* Formulario de inicio de sesión seguro para la autenticación de usuarios.
 
 ### Pantalla — Gestión de Clientes
-![Módulo de Clientes](../diagramas/mockup-clientes.png)
+![Módulo de Clientes](mockup-clientes.png)
 *Descripción:* Formulario de alta para registrar clientes con su documento, nombre, apellido y teléfono, junto con el listado de clientes registrados.
 
 ### Pantalla — Gestión de Categorías
-![Módulo de Categorías - Modo Claro](../diagramas/mockup-categorias-claro.png)
-![Módulo de Categorías - Modo Oscuro](../diagramas/mockup-categorias-oscuro.png)
+![Módulo de Categorías - Modo Claro](mockup-categorias-claro.png)
+![Módulo de Categorías - Modo Oscuro](mockup-categorias-oscuro.png)
 *Descripción:* Panel de administración de categorías de productos (altas, edición y listado) integrado con soporte para tema claro y oscuro en AdminLTE.
 
 ### Pantalla — Gestión de Marcas y Proveedores
-![Módulo de Marcas](../diagramas/mockup-marcas.png)
-![Módulo de Proveedores](../diagramas/mockup-proveedores.png)
+![Módulo de Marcas](mockup-marcas.png)
+![Módulo de Proveedores](mockup-proveedores.png)
 *Descripción:* Módulos para administrar las marcas de productos y los datos de proveedores (RUC, nombre y teléfono).
 
 ---
