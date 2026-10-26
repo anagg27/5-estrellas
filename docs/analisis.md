@@ -61,9 +61,12 @@ layout: default
 
 ![Modelo de Dominio DER](../diagramas/modelo-dominio.png)
 
-[Breve descripción de las entidades principales del negocio y cómo se relacionan entre sí, sin detalles de implementación.]
-
----
+*Descripción de entidades principales:*
+* *Cliente:* Guarda datos personales (CI_RUC, Nombre, Apellido, Telefono) y controla la deuda pendiente.
+* *Producto:* Contiene Codigo, Nombre, Stock, Precio_Venta y se relaciona con Categoria y Marca.
+* *Venta:* Transaction principal que guarda la Fecha, Monto_Total, Tipo_Pago y se vincula con el Cliente y el Vendedor.
+* *DetalleVenta (contiene):* Asocia los productos comprados con la cantidad y el precio unitario en el momento de la venta.
+* *Proveedor y Compra:* Registran la reposición de inventario e ingreso de mercadería.
 
 ## 5. Diagramas de comportamiento
 
@@ -71,9 +74,7 @@ layout: default
 
 ![Diagrama de Comportamiento](../diagramas/flujo-punto-de-venta.svg)
 
-[Breve explicación del flujo representado.]
-
----
+*Breve explicación:* Representa el flujo interactivo desde que el vendedor autenticado inicia la atención, busca productos, selecciona la condición de pago (Contado o Crédito) y el sistema procesa la transacción afectando las tablas en MariaDB.
 
 ## 6. Prototipo de interfaz (mockups)
 
@@ -106,17 +107,22 @@ layout: default
 
 | ID | Regla |
 |---|---|
-| RN-01 | [ej. Un usuario no puede registrar dos reservas superpuestas] |
-| RN-02 | [Regla 2] |
-
+| *RN-01* | Toda venta a crédito debe estar asociada obligatoriamente a un cliente registrado en el sistema. |
+| *RN-02* | No se permite procesar una venta si la cantidad de un producto supera las existencias actuales de stock. |
+| *RN-03* | El monto abonado por un cliente a su cuenta de crédito no puede ser mayor al saldo total adeudado. |
+| *RN-04* | Los precios unitarios en el detalle de la venta quedan congelados al momento de registrar la transacción. |
 ---
 
 ## 8. Matriz de trazabilidad
 
 | Requisito | Caso(s) de uso relacionado(s) |
 |---|---|
-| RF-01 | CU-01 |
-| RF-02 | CU-02, CU-03 |
+| *RF-01* | CU-01 |
+| *RF-02* | CU-02 |
+| *RF-03* | CU-03 |
+| *RF-04* | CU-01, CU-02 |
+| *RF-05* | CU-01 |
+| *RF-06* | CU-01, CU-02 |
 | RF-03 | CU-01 |
 
 ---
