@@ -26,7 +26,9 @@ layout: default
 
 ## 2. Requisitos no funcionales
 
-| *RNF-01* | La interfaz debe ser intuitiva y de fácil uso para que el usuario opere el sistema sin capacitación previa. | Usabilidad |
+| ID | Requisito | Categoría |
+|---|---|---|
+| *RNF-01* | El 90% de los usuarios probados debe lograr completar el flujo de venta al contado en menos de 2 minutos sin recibir instrucción previa. | Usabilidad |
 | *RNF-02* | El sistema debe responder a las búsquedas y registros de ventas en menos de 1 segundo en entorno local. | Rendimiento |
 | *RNF-03* | Las transacciones de venta deben garantizar la integridad de los datos (soporte ACID en MariaDB). | Fiabilidad |
 | *RNF-04* | El sistema debe ejecutarse sobre el entorno local XAMPP sin costo de licencias de software. | Portabilidad / Costo |
