@@ -34,9 +34,9 @@ layout: default
 
 ## 3. Modelo de casos de uso
 
-**Diagrama de casos de uso:**
+**Diagrama de casos de uso / flujo principal:**
 
-`[Insertar imagen: diagramas/casos-de-uso.png]`
+![Diagrama de Casos de Uso](../diagramas/flujo-punto-de-venta.svg)
 
 **Especificación de casos de uso principales:**
 
@@ -59,7 +59,7 @@ layout: default
 
 **Diagrama de clases conceptual:**
 
-`[Insertar imagen: diagramas/modelo-dominio.png]`
+![Modelo de Dominio DER](../diagramas/modelo-dominio.png)
 
 [Breve descripción de las entidades principales del negocio y cómo se relacionan entre sí, sin detalles de implementación.]
 
@@ -67,9 +67,9 @@ layout: default
 
 ## 5. Diagramas de comportamiento
 
-**Diagrama de secuencia / actividad — [Nombre del flujo principal]:**
+**Diagrama de secuencia / actividad — secuencia — Proceso de Venta:**
 
-`[Insertar imagen: diagramas/secuencia-flujo-principal.png]`
+![Diagrama de Comportamiento](../diagramas/flujo-punto-de-venta.svg)
 
 [Breve explicación del flujo representado.]
 
@@ -77,13 +77,28 @@ layout: default
 
 ## 6. Prototipo de interfaz (mockups)
 
-**Pantalla — [Nombre de la pantalla]:**
+### Pantalla — Inicio de Punto de Venta:
 
-`[Insertar imagen: diagramas/mockup-pantalla1.png]`
+![Pantalla de Inicio](../diagramas/mockup-inicio.png)
+*Descripción:* Pantalla principal de bienvenida al punto de venta que permite el ingreso o registro de usuario.
 
-[Breve descripción de la interacción que ilustra este mockup.]
+### Pantalla — Acceso al Sistema (Login)
+![Pantalla de Login](../diagramas/mockup-login.png)
+*Descripción:* Formulario de inicio de sesión seguro para la autenticación de usuarios.
 
-*(Repetir para cada pantalla principal.)*
+### Pantalla — Gestión de Clientes
+![Módulo de Clientes](../diagramas/mockup-clientes.png)
+*Descripción:* Formulario de alta para registrar clientes con su documento, nombre, apellido y teléfono, junto con el listado de clientes registrados.
+
+### Pantalla — Gestión de Categorías
+![Módulo de Categorías - Modo Claro](../diagramas/mockup-categorias-claro.png)
+![Módulo de Categorías - Modo Oscuro](../diagramas/mockup-categorias-oscuro.png)
+*Descripción:* Panel de administración de categorías de productos (altas, edición y listado) integrado con soporte para tema claro y oscuro en AdminLTE.
+
+### Pantalla — Gestión de Marcas y Proveedores
+![Módulo de Marcas](../diagramas/mockup-marcas.png)
+![Módulo de Proveedores](../diagramas/mockup-proveedores.png)
+*Descripción:* Módulos para administrar las marcas de productos y los datos de proveedores (RUC, nombre y teléfono).
 
 ---
 
