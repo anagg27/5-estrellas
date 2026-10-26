@@ -37,7 +37,7 @@ layout: default
 
 **Diagrama de casos de uso / flujo principal:**
 
-![Diagrama de Casos de Uso](../diagramas/flujo-punto-de-venta.svg)
+![Diagrama de Casos de Uso](https://github.com/anagg27/5-estrellas/blob/main/diagramas/flujo-punto-de-venta.svg)
 
 **Especificación de casos de uso principales:**
 
