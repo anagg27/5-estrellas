@@ -74,11 +74,11 @@ Desarrollar un sistema que permita a Ariel gestionar las ventas, los créditos a
 
 ## 6. Justificación / viabilidad
 
-**Viabilidad técnica:** El equipo cuenta con conocimientos suficientes para implementar el sistema con herramientas ampliamente documentadas y de uso gratuito. Se optó por Python con el framework Django o Flask, y SQLite como motor de base de datos, por tratarse de tecnologías simples de instalar, sin necesidad de infraestructura de servidor compleja, adecuadas para un sistema de un solo local y un solo usuario como el de Ariel. Previamente se desarrolló un prototipo navegable en React/Vite para validar el flujo con el cliente, lo cual reduce el riesgo técnico de la implementación final
+Viabilidad técnica: El equipo cuenta con conocimientos suficientes para implementar el sistema con herramientas ampliamente documentadas y de uso gratuito. Se optó por PHP como lenguaje principal con el framework Laravel, utilizando Livewire para la construcción de interfaces dinámicas y reactivas en el frontend, y JavaScript / npm para la gestión de dependencias y scripts de cliente. Para la persistencia de datos se utilizará el motor MariaDB integrado a través de la suite XAMPP. Esta combinación permite estructurar una arquitectura robusta (Model-View-Controller) bajo una pila de desarrollo local fácil de desplegar en un único equipo informático, adecuada para un sistema de un solo local y un solo usuario como el de Ariel. Previamente se desarrolló un prototipo navegable en React/Vite para validar el flujo con el cliente, lo cual reduce el riesgo técnico de la implementación final.
 
-**Viabilidad operativa:** Ariel podrá usar el sistema en su día a día ya que reemplaza tareas que hoy hace manualmente (sumar, anotar en cuaderno); la clave es que la interfaz sea simple para alguien sin conocimientos técnicos.
+Viabilidad operativa: Ariel podrá usar el sistema en su día a día ya que reemplaza tareas que hoy hace manualmente (sumar, anotar en cuaderno); la clave es que la interfaz sea simple para alguien sin conocimientos técnicos.
 
-**Viabilidad económica (alto nivel):** Al ser un Trabajo Práctico académico, no hay costo de licencias ni infraestructura paga previsto; se puede desarrollar con herramientas gratuitas.
+Viabilidad económica (alto nivel): Al ser un Trabajo Práctico académico, no hay costo de licencias ni infraestructura paga previsto; se puede desarrollar con herramientas gratuitas (XAMPP, PHP, Laravel, MariaDB).
 
 ---
 
@@ -111,9 +111,9 @@ El grupo imagina un sistema simple donde Ariel pueda cargar una venta indicando 
 
 | Componente | Elección | Justificación breve |
 |---|---|---|
-| Lenguaje de programación | Python | Lenguaje simple, con curva de aprendizaje baja para el equipo y amplio soporte de librerías |
-| Framework | Django o Flask | Framework web maduro (Django) o liviano (Flask), ambos con buena documentación para un sistema de escritorio/local pequeño |
-| Base de datos | SQLite | Base de datos liviana, sin necesidad de servidor separado, ideal para un sistema de un solo usuario/local como la despensa de Ariel |
+| Lenguaje de programación | PHP / JavaScript | PHP como lenguaje base en servidor por su robustez y amplia documentación; JavaScript (gestionado vía npm) para dar soporte al comportamiento interactivo en el cliente. |
+| Framework | Laravel + Livewire | Laravel ofrece una arquitectura limpia (MVC), enrutamiento, ORM (Eloquent) y seguridad integrada. Livewire permite crear componentes interactivos y dinámicos en tiempo real sin salir del ecosistema de Laravel. |
+| Base de datos | MariaDB (XAMPP) | Motor relacional maduro y eficiente para la gestión de productos, ventas y saldos de créditos. Administrado de forma local y sencilla a través del entorno XAMPP. |
 
 ---
 
