@@ -42,7 +42,7 @@ El grupo optó por una metodología iterativa e incremental porque se ajusta a l
 | Entrega | Estado | Enlace |
 |---|---|---|
 | 1. Conceptualización | ✅ Entregado | [Ver documento](docs/conceptualizacion.md) |
-| 2. Análisis | 🔲 Pendiente | [Ver documento](docs/analisis.md) |
+| 2. Análisis | ✅ Entregado | [Ver documento](docs/analisis.md) |
 | 3. Diseño | 🔲 Pendiente | [Ver documento](docs/diseno.md) |
 
 ## Estructura del repositorio
